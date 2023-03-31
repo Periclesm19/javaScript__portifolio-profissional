@@ -1,14 +1,14 @@
 {
-  "name": "Renan J Paula",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "name": "Péricles Matos",
+  "photo": "https://avatars.githubusercontent.com/u/114454249?v=4",
+  "job": "Developer Software",
+  "location": "Fortaleza - CE, Brasil",
+  "phone": "(85) 99961-4073",
+  "email": "spfcpericles@gmial.com",
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
+        "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
