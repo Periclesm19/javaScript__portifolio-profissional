@@ -16,12 +16,12 @@
         "logo": "https://raw.githubusercontent.com/Periclesm19/portifolio-proficional/master/data/imgs/typescript.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/Periclesm19/portifolio-proficional/master/data/imgs/java.png"
-      },
-      {
         "name": "Angular",
         "logo": "https://raw.githubusercontent.com/Periclesm19/portifolio-proficional/master/data/imgs/angular.png"
+      },
+      {
+        "name": "Java",
+        "logo": "https://raw.githubusercontent.com/Periclesm19/portifolio-proficional/master/data/imgs/java.png"
       },
       {
         "name": "git",
@@ -58,12 +58,12 @@
     {
       "name": "Supervisor assistente - Hapvida",
       "period": "Dezembro 2017 - Outubro 2018",
-      "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
+      "description": ""
     },
     {
       "name": "Operador call center - Hapvida",
       "period": "Janeiro 2016 - Dezembro 2017",
-      "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
+      "description": ""
     }
   ]
 }
