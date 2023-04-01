@@ -44,9 +44,8 @@ function updateAcademicEducation(profileData) {
     .map(courses => {
       return `
       <li>
-        <h3 class="title">${courses.name}</h3>
+        <h3 class="title">${courses.name} - ${courses.institution}</h3>
         <p class="period">${courses.period}</p>
-        <p>${courses.description}</p>
       </li>`;
     })
 }
