@@ -39,7 +39,7 @@ function updateHardSkills(profileData) {
 }
 
 function updateAcademicEducation(profileData) {
-  const academicEducation = document.getElementById('profile.academicEducation')
+  const academicEducation = document.getElementById('profile.education.academicEducation')
   academicEducation.innerHTML = profileData.education.academicEducation
     .map(courses => {
       return `
@@ -48,6 +48,20 @@ function updateAcademicEducation(profileData) {
         <p class="period">${courses.period}</p>
       </li>`;
     })
+}
+
+function updateCertificates(profileData) {
+  const certificates = document.getElementById('profile.education.certificates')
+  certificates.innerHTML = profileData.education.certificates
+    .map(certificate => {
+      return `
+        <li>
+          <h3>
+            <a href="${certificate.link}" target="_blank">${certificate.name}</a>
+          </h3>
+        </li>`;
+    })
+    .join('')
 }
 
 function updateLanguages(profileData) {
@@ -89,6 +103,7 @@ function updateProfessionalExperience(profileData) {
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateAcademicEducation(profileData);
+  updateCertificates(profileData)
   updateLanguages(profileData);
   updatePortfolio(profileData);
   updateProfessionalExperience(profileData);
