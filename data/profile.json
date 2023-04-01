@@ -39,6 +39,23 @@
       "Organização"
     ]
   },
+  "education": {
+    "academicEducation": [
+      {
+        "name": "Analise e desenvolvimento de sistemas",
+        "institution": "FBuni",
+        "period": "Agosto 2022 - Dezembro 2024"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Formação Developer JavaScript",
+        "institution": "DIO",
+        "url": ""
+
+      }
+    ]
+  },
   "languages": [
     "Português BR"
   ],
