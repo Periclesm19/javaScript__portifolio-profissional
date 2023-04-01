@@ -57,7 +57,7 @@ function updateCertificates(profileData) {
       return `
         <li>
           <h3>
-            <a href="${certificate.link}" target="_blank">${certificate.name}</a>
+            <a href="${certificate.link}" target="_blank">${certificate.name} - ${certificate.institution}</a>
           </h3>
         </li>`;
     })
