@@ -39,21 +39,26 @@ function updateHardSkills(profileData) {
 }
 
 function updateAcademicEducation(profileData) {
-  const academicEducation = document.getElementById('profile.education.academicEducation')
-  academicEducation.innerHTML = profileData.education.academicEducation
-    .map(courses => {
+  const academicEducation = document.getElementById(
+    "profile.education.academicEducation"
+  );
+  academicEducation.innerHTML = profileData.education.academicEducation.map(
+    (courses) => {
       return `
       <li>
         <h3 class="title">${courses.name} - ${courses.institution}</h3>
         <p class="period">${courses.period}</p>
       </li>`;
-    })
+    }
+  );
 }
 
 function updateCertificates(profileData) {
-  const certificates = document.getElementById('profile.education.certificates')
+  const certificates = document.getElementById(
+    "profile.education.certificates"
+  );
   certificates.innerHTML = profileData.education.certificates
-    .map(certificate => {
+    .map((certificate) => {
       return `
         <li>
           <h3>
@@ -61,7 +66,7 @@ function updateCertificates(profileData) {
           </h3>
         </li>`;
     })
-    .join('')
+    .join("");
 }
 
 function updateLanguages(profileData) {
@@ -77,14 +82,18 @@ function updatePortfolio(profileData) {
     .map((project) => {
       return `
         <li>
-          <h3 ${project.github ? 'class="github"' : ""}><a href="${project.url}" target="_blank">${project.name}</a></h3>
+          <h3 ${project.github ? 'class="github"' : ""}><a href="${
+        project.url
+      }" target="_blank">${project.name}</a></h3>
         </li>`;
     })
     .join("");
 }
 
 function updateProfessionalExperience(profileData) {
-  const professionalExperience = document.getElementById("profile.professionalExperience");
+  const professionalExperience = document.getElementById(
+    "profile.professionalExperience"
+  );
   professionalExperience.innerHTML = profileData.professionalExperience
     .map((experience) => {
       return `
@@ -103,7 +112,7 @@ function updateProfessionalExperience(profileData) {
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
   updateAcademicEducation(profileData);
-  updateCertificates(profileData)
+  updateCertificates(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
   updateProfessionalExperience(profileData);
