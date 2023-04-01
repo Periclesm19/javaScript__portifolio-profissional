@@ -69,6 +69,16 @@
       "name": "Flappy bird",
       "url": "https://github.com/Periclesm19/flappy-bird",
       "github": true
+    },
+    {
+      "name": "Portifolio",
+      "url": "https://github.com/Periclesm19/portifolio-profissional",
+      "github": true
+    },
+    {
+      "name": "Curriculo online",
+      "url": "https://github.com/Periclesm19/curriculo-online",
+      "github": true
     }
   ],
   "professionalExperience": [
